@@ -1,6 +1,7 @@
 package yncrea.lab05.contract.dto;
 
 public class CompanyDTO {
+
     public String name;
 
     public CompanyDTO(String name) {

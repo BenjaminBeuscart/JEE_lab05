@@ -8,6 +8,6 @@ import java.util.List;
 @WebService
 public interface CompanyWS {
 
-    public List<CompanyDTO> getAllCompanies();
-    public void saveCompany(CompanyDTO companyDTO);
+    List<CompanyDTO> getAllCompanies();
+    void saveCompany(CompanyDTO companyDTO);
 }
